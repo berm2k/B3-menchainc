@@ -1,0 +1,26 @@
+1 - اضف الرتبة بملف 
+vrp/cfg/groups.lua
+--------------------------------
+["ميكانيكي"] = {
+    _config = { gtype = "job",
+	onspawn = function(player) vRPclient.notify(player,{"انت ميكانيكي"}) end
+	},
+    "vehicle.repair",
+    "vehicle.replace",
+	"Mechanical.Chat",
+	"B3-mechanic",
+    "repair.service",
+	"mission.repair.satellite_dishes",
+	"mission.repair.wind_turbines",
+	"cop.whitelisted",
+	"repair.vehicle",
+	"repair.market",
+	"repair.paycheck"
+  },
+-----------------------------------
+في حال رتبة الميكانيكي عندك ضيف هذا البرمشن فقط
+     "B3-mechanic",
+-----------------------------------
+2 - server.cfg ادخل الملف بالريسورس و سوله ستارت بال
+-----------------------------------
+ https://discord.gg/2mNts9zxdn في حين مواجهة اي مشاكل بالسكربت يرجى فتح تذكرة برمجية 
